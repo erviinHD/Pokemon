@@ -7,6 +7,21 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
+  slides = [
+    {
+      img: 'assets/img/1.svg',
+      titulo: 'Hola, bienvenido a <br> <b>PokeApp</b>'
+    },
+    {
+      img: 'assets/img/2.svg',
+      titulo: 'Conoce más sobre el mundo Pokemón'
+    },
+    {
+      img: 'assets/img/3.svg',
+      titulo: '¿Estás listo?, <br> comencemos...'
+    }
+  ]
+
   constructor() {}
 
 }
